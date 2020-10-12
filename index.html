@@ -2,6 +2,46 @@
 <html lang="en">
 
 <head>
+    <style>
+      /* unvisited link */
+      a:link {
+        color: rgb(0, 0, 0);
+      }
+    
+      /* visited link */
+      a:visited {
+        color: rgb(0, 0, 0);
+      }
+    
+      /* mouse over link */
+      a:hover {
+        color: rgb(49, 149, 40);
+      }
+    
+      /* selected link */
+      a:active {
+        color: black;
+      }
+    
+      .grey {
+        background-color: rgb(207, 207, 207);
+      }
+    
+      .white {
+        background-color: rgb(248, 247, 240);
+      }
+    
+      li {
+        font-size: larger;
+        line-height: 1.5;
+        margin: 5px;
+        border-style: solid;
+      }
+
+
+
+           </style>
+       
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Birds</title>
@@ -18,8 +58,8 @@
 
     <h1>Birds</h1>
     <ul>
-        <li><a href="eagles">Eagles</a></li>
-        <li><a href="falcon">Falcon</a></li>
+        <li class="grey"><a href="eagles">Eagles</a></li>
+        <li class="white"><a href="falcon">Falcon</a></li>
     </ul>
 </body>
 
