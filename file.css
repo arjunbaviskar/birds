@@ -1,0 +1,37 @@
+h2 {
+  border-bottom: 1px solid black;
+}
+
+/* unvisited link */
+
+a:link {
+  color: rgba(15, 75, 170);
+}
+
+/* visited link */
+
+a:visited {
+  color: rgb(34, 173, 21, 0.787);
+}
+
+/* mouse over link */
+
+a:hover {
+  color: rgba rgb(167, 43, 43);
+}
+
+/* selected link */
+
+a:active {
+  color: black;
+}
+
+li {
+  font-size: larger;
+  margin: 2px;
+}
+
+p {
+    font-size: larger;
+  }
+  
