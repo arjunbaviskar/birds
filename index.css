@@ -5,7 +5,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: rgb(0, 0, 0);
+  color: rgb(15, 75, 170);
 }
 
 /* mouse over link */
@@ -23,7 +23,7 @@ a:active {
 }
 
 .grey a:hover {
-  color: brown;
+  color: rgb(240, 9, 9);
 }
 
 .white {
